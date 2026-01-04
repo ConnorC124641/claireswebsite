@@ -1,0 +1,100 @@
+ /* --- RESEARCH PAGE STYLES --- */
+
+/* 1. The Background (The Desk) */
+body {
+    background-color: #FFC0CB; /* Pink background */
+    font-family: 'Georgia', serif; /* Serif fonts look more like "research" papers */
+    line-height: 1.8; /* Extra space between lines makes reading easier */
+    color: #333; /* Dark grey text is easier on eyes than black */
+    padding: 40px;
+}
+
+/* 2. The Paper (The White Box) */
+.research-paper {
+    background-color: white;
+    max-width: 800px; /* Standard reading width */
+    margin: 0 auto; /* Centers the paper */
+    padding: 60px; /* Big spacing inside creates a professional look */
+    
+    /* This shadow makes it look like it's floating slightly */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    border-top: 10px solid #FFD700; /* A yellow strip at the very top */
+}
+
+/* 3. The Headers */
+.paper-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 3rem; /* Very big title */
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.author {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* 4. The Yellow Line Divider */
+.yellow-line {
+    border: 0;
+    height: 3px;
+    background-color: #FFD700; /* Yellow line */
+    width: 100px; /* Short line */
+    margin: 0 auto; /* Centered */
+}
+
+/* 5. Section Headers */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #FFD700; /* Dark Pink for subtitles */
+    border-bottom: 1px solid #eee; /* Subtle grey line under headers */
+    padding-bottom: 10px;
+}
+
+/* 6. Lists (Bullet Points) */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px; /* Space between bullet points */
+}
+
+/* 7. The "Highlighter" Effect */
+.highlight {
+    background-color: #FFD700; /* Yellow background */
+    padding: 2px 5px; /* Adds a little breathing room around text */
+    border-radius: 4px; /* Slightly rounds the highlighter edges */
+    font-weight: bold;
+}
+
+/* 8. The Sources Box */
+.citation-box {
+    background-color: #f9f9f9; /* Light grey box */
+    padding: 20px;
+    border-left: 5px solid #FFD700; /* Yellow bar on the left */
+    font-size: 0.9rem;
+}
+
+/* 9. The Back Link */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #888;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    color: #d81b60; /* Turns dark pink when hovered */
+}
